@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ca9cff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex; /* Allows the form and image to be side by side */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.main-container {
+    background-color: #f9fdfd;
+    width: 320px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-title h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.login-title p {
+    font-size: 16px;
+    color: #808080;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-container form div {
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #7a00ff;
+}
+
+.other-logins {
+    margin-top: 20px;
+}
+
+.other-logins a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.google {
+    background-color: #fff;
+}
+
+.facebook {
+    background-color: #fff;
+    color: white;
+}
+
+.more-logins {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.other-logins img {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.fade {
+    color: #a7a4a4;
+    font-size: 14px;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    pointer-events: none;
+}
+
+.password-input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+.password-input::placeholder {
+    color: #888;
+    font-size: 14px;
+}
+
+.image-section {
+    width: 400px;
+    background-color: #5c4ac7;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+
+.image-section img {
+    width: 70%;
+     border-radius: 30px;
+}
